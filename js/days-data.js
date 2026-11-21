@@ -15,7 +15,7 @@ const days = [
     summary: "We broke the ice, found our strengths and formed our teams.",
 
     description:
-      "The programme began with a warm welcome from Mr. Daneal Samson. Through icebreakers, self introductions and a SWOT analysis, strangers became teammates.",
+      "The programme began with a warm welcome from Mr. Daniel Samson. Through icebreakers, self introductions and a SWOT analysis, strangers became teammates.",
 
     activities: [
       "Icebreakers: think and act, choose a team name, speak about the given topic",
