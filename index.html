@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>7 Days of Soft Skills | Memories</title>
+<meta name="description" content="Memories from our 7-day Soft Skills Training with Mr. Daneal Samson.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="loader" id="loader"><span>7 Days of Soft Skills</span></div>
+<div class="progress" id="progress"></div>
+<canvas id="sparks" aria-hidden="true"></canvas>
+<div class="cursor-glow" id="cg" aria-hidden="true"></div>
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<nav class="nav glass">
+  <a href="#top" class="brand">Soft Skills '26</a>
+  <a href="#days">Days</a><a href="#daywise">Day-wise</a><a href="#gallery">Gallery</a><a href="#mentor">Mentor</a>
+</nav>
+
+<header id="top" class="hero">
+  <p class="kicker">College Training Programme</p>
+  <h1>Seven days that<br>changed how we <span id="typed"></span></h1>
+  <p class="lead">Our memories from the Soft Skills Training, guided by <b>Mr. Daneal Samson</b>.</p>
+  <a class="btn" href="#days">Relive the week</a>
+</header>
+
+<section id="days" class="wrap">
+  <h2>The 7 days</h2>
+  <div class="timeline" id="timeline"></div>
+</section>
+
+<section id="daywise" class="wrap">
+  <h2>Day-wise memories</h2>
+  <div class="daytabs glass" id="dayTabs" role="tablist"></div>
+  <div id="daySections"></div>
+</section>
+
+<section id="gallery" class="wrap">
+  <h2>Memory gallery</h2>
+  <div class="chips" id="chips" role="tablist"></div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section id="mentor" class="wrap">
+  <div class="mentor glass">
+    <div class="portrait" id="portrait"><span>DS</span></div>
+    <div>
+      <h2>A Mentor Who Made a Difference</h2>
+      <p>Thank you, Mr. Daneal Samson, for seven days of patience, energy and honest feedback. You taught us to speak with confidence, listen with care and work as a team.</p>
+      <p class="sign">- The Students</p>
+    </div>
+  </div>
+</section>
+
+<footer>Made with memories. Edit <code>js/days-data.js</code> to add your own days and photos.</footer>
+
+<div class="lightbox" id="lb" hidden>
+  <button class="x" id="lbClose" aria-label="Close">&times;</button>
+  <button class="nv p" id="lbPrev" aria-label="Previous">&#8249;</button>
+  <button class="pl" id="lbPlay" aria-label="Play slideshow">&#9654;</button>
+  <figure id="lbFig"></figure>
+  <button class="nv n" id="lbNext" aria-label="Next">&#8250;</button>
+</div>
+<script src="js/days-data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
